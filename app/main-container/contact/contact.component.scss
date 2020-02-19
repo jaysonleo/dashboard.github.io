@@ -1,0 +1,57 @@
+.contact {
+    padding-top: 25vh;
+    text-align: center;
+    p {
+        padding-left:25%;
+        width:75%;
+    }
+}
+
+.hello-btn {
+    margin-top:2vh;
+    text-align: center;
+    a {
+    padding: 1vh;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    text-align: center;
+    color:white;
+    } :hover {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #c47436;
+        color: #c47436;
+        text-decoration: none;
+    }
+    button {
+        margin-left: 1vh;
+        margin-bottom:1vh;
+        padding: 1vh;
+    } :hover {
+        border-width: 0;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        padding-top: 50vh;
+        text-align: center;
+        p {
+            padding-left:25%;
+            width:75%;
+        }
+    }
+
+    .hello-btn {
+        margin-top:10vh;
+        a {
+            font-size: 2vh;
+        }
+        button {
+            margin-top: 5vh;
+        }
+    }
+    
+}
